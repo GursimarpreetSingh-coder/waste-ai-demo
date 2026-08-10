@@ -1,4 +1,4 @@
-# ♻️ WasteVision — AI-Assisted Waste Segregation
+# ♻️ WasteVision — Deep Learning-Based Waste Classification
 
 WasteVision is an **AI-powered waste classification platform** that uses **Computer Vision, Deep Learning, and TensorFlow Lite** to automatically classify waste into two categories:
 
@@ -8,6 +8,13 @@ WasteVision is an **AI-powered waste classification platform** that uses **Compu
 The system is designed as a lightweight AI-assisted solution for faster and smarter waste segregation.
 
 ---
+> AI-powered waste classification using Deep Learning and TensorFlow Lite
+<p align="center">
+  <a href="https://waste-vision.onrender.com/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20TRY%20WASTEVISION-LIVE%20DEMO-00C853?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Try WasteVision Live Demo">
+  </a>
+</p>
+
 
 ## 🚀 Features
 
