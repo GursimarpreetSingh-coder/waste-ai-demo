@@ -136,12 +136,10 @@ The images were selected directly from the existing test dataset. No images were
 
 ## 📊 Confusion Matrix
 
-```text
-                 Predicted
-              Dry      Wet
-Actual Dry     452      48
-Actual Wet      70     430
-```
+| Actual \ Predicted | **Dry** | **Wet** |
+| :--- | :---: | :---: |
+| **Dry** | 452 | 48 |
+| **Wet** | 70 | 430 |
 
 The model correctly classified:
 
