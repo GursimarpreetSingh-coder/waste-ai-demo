@@ -161,16 +161,12 @@ Accuracy            = 88.20%
 The evaluation script automatically generates:
 
 ### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
-```text
-confusion_matrix.png
-```
 
 ### Metrics Summary
 
-```text
-metrics_summary.png
-```
+![Metrics_Summary](metrics_summary.png)
 
 These visualizations provide a quick overview of the model's classification performance.
 
@@ -535,15 +531,6 @@ The reported **88.20% accuracy** was obtained from a balanced 1,000-image evalua
 
 B.Tech — Electrical Engineering  
 Dr. B.R. Ambedkar National Institute of Technology, Jalandhar
-
-Interested in:
-
-- Artificial Intelligence
-- Machine Learning
-- Deep Learning
-- Computer Vision
-- Web Development
-- Quantum Computing
 
 ---
 
