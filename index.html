@@ -43,7 +43,11 @@
   </main><div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script>
     const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-    const API_BASE=`${location.protocol==='https:'?'https':'http'}://${location.hostname||'127.0.0.1'}:5000`, HISTORY_KEY='wasteVisionHistory';
+    const API_BASE =
+    location.hostname === '127.0.0.1' ||
+    location.hostname === 'localhost'
+        ? 'http://127.0.0.1:5000'
+        : ''; HISTORY_KEY='wasteVisionHistory';
     const fileInput=$('#fileInput'),dropzone=$('#dropzone'),preview=$('#preview'),video=$('#video'),overlay=$('#overlay'),ctx=overlay.getContext('2d');let stream=null,running=false,busy=false,timer=null,lastResult=null,history=JSON.parse(localStorage.getItem(HISTORY_KEY)||'[]');
     function toast(message){const t=$('#toast');t.textContent=message;t.classList.add('show');clearTimeout(t._timer);t._timer=setTimeout(()=>t.classList.remove('show'),2800)}
     function setText(id,text,show=true){const el=$(id);el.textContent=text;el.classList.toggle('hidden',!show)}
